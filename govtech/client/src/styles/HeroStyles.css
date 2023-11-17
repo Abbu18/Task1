@@ -1,0 +1,95 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-services{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.hero-services h1{
+    padding-top: 10%;
+    font-size: 4rem !important;
+}
+
+.hero-reviews{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.hero-reviews h1{
+    padding-top: 10%;
+    font-size: 4rem !important;
+}
+
+.hero-contact{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;                       
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh*/
+
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.hero-text .hero-p{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;
+}
+
+@media screen and (max-width: 555px) { 
+
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+
+    .hero-text .hero-p{
+        padding: 0 0 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
